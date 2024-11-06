@@ -1,78 +1,111 @@
 <! DOCTYPE html > 
 
-<html>
+<html> 
 <head> 
     <title> Hawra Alaradi </title> 
     <style>
-        h2{
-            color:darkcyan;
-            font-style: italic;
-        }
-
         #border {
                border-bottom: solid 5px rgba(0, 10, 16, 0.5);
+               padding: 0%;
         }
-    </style>
 
-</head>
+        .head{
+             background-color: #5c6BC0 ;
+            display: flex;
+            justify-content: space-around;
+            color: azure;
+            font-style: italic;
+            text-wrap: pretty ;
+            padding: 0%;
 
-<body style="background-color: #c8c7d0;">
+        }
+
+        .sHeader{
+            display: flex;
+            justify-content: space-around;
+            background-color: #9FA8DA;
+        }
+
+        .aboutMe
+        {
+           display: flex;
+            text-wrap: pretty ;
+            background-color: #C5CAE9;
+            justify-content: space-around;
+            font-size: x-large;
+        }
+        .skills{
+            display: flex;
+            background-color: #e8EAF6;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+        .usu{
+            display: flex;
+            background-color: #C5CAE9;
+            justify-content: space-around;
+            text-wrap: pretty ;
+        }
+
+        html{
+            padding: 0cm;
+            margin: 0cm;
+        }
+</style> <!-- end of style-->
+
+</head> <!-- end of head -->
+
+<body style="background-color: rgba(181,184,177);"> <!--start of body -->
     
-    <h2 id="border"> about me</h2>
+    <div class="head"> <h2> Hawra Alaradi</h2> </div>
 
+    <div class="sHeader">
+      <h2>Skills</h2>
+      <h2> Projects</h2>
+      <h2> Contacts</h2>
 
+    </div>
 
+<div class="aboutMe ">
     <p> <!-- first paragraph brief information -->
-   Junior computer Since student at Iau , <spn style="color: red;"> Gamer  </spn>  
-    <a href="https://www.linkedin.com/in/hawra-alaradi-136ab11b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" title="Hawra Alaradi linkedin">
-        linkedin
-
-    </a> 
-
-    </p>
-
-    <p> <!-- second paragraph my skills and link to wiki -->
-
-  <h2> <big> <b>  skills  </b> </big> </h2>
+      <span style="font-style: italic; " > <b>  Hello! I'm Hawra Alaradi <br> </b> </span>  a passionate web developer and app creator with a keen interest in exploring the vast world of coding and programming. When I'm not immersed in lines of code, you can find me enjoying my favorite video games. 
+         <a href="https://www.linkedin.com/in/hawra-alaradi-136ab11b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" title="Hawra Alaradi linkedin">
+             linkedin  </a> 
+            </p>
+</div>
 
 
-<a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">
-    <img src="./images/IMG_3501.JPG" width="70" height="70" title="click to know more about c++ lnguage">
-</a>
-   <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">
-    <img src="./images/IMG_3502.JPG" width="90" height="90" title="click to know more about java language ">
-<br>   
-</a>
 
-   <a href="https://en.wikipedia.org/wiki/Swift_(programming_language)" target="_blank">
-    <img src="./images/IMG_3503.JPG" width="70" height="70" title="click to know more about swift language">
-   </a>
+ <!-- second paragraph my skills and link to wiki -->
 
-   <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
-    <img src="./images/IMG_3504.JPG" width="90" height="90" title="click to know more about HTMl language">
-   </a>
+        
+  <div class="skills">
+    <p> 
+        <span style="font-size: larger;"> <b> skills <br> </b> </span>
+
+    <img src= "./images/c-logo.png" width="60" height="60" >
+
+    <img src="./images/java-logo-black-and-white-3.png" width="70" height="70" >   
+
+
+    <img src="./images/swift-logo.png" width="60" height="60">
+
+
+    <img src="./images/html5-logo.png" width="60" height="60">
+</p>
+</div>
+
+<div class ="usu"> 
+<p style="text-align: left;">
+    <span style="font-size: x-large;"> <b> Project & Contacts <br> </b> </span>
+coming soon ^_^
 </p>
 
+</div>
 
-<p> <!-- third paragraph memes -->
- <h2> Memes </h2>
- <video controls src="./v09044g40000cgfgesrc77u0pcrbnve0.MP4" width="500" height="500"> 
-
- </video>
-
-</p>
-
-
-    <button onclick="doSome()" style="background-color: black; color: yellow; border-radius: 5px; height: 30 ; width: 70;">
-        click
-   
-    </button>
-    <p id="test"> hello </p>
-    <script>
-        function doSome(){
-            document.getElementById("test").innerHTML=" how are u ? "
-        }
-    </script>
 
 
 </body>
