@@ -3,14 +3,29 @@
 <html> 
 <head> 
     <title> Hawra Alaradi </title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         #border {
                border-bottom: solid 5px rgba(0, 10, 16, 0.5);
                padding: 0%;
         }
+        
+        div {
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        }   
+        
+        *{
+            padding: 0cm;
+            margin: 0cm;
+        }
+
 
         .head{
-             background-color: #5c6BC0 ;
+            background-color: #5c6BC0 ;
             display: flex;
             justify-content: space-around;
             color: azure;
@@ -45,16 +60,36 @@
 
         .usu{
             display: flex;
-            background-color: #C5CAE9;
+            background-color: #e8EAF6;
             justify-content: space-around;
             text-wrap: pretty ;
+            align-items: center;
+            font-size: x-large;
         }
 
-        html{
-            padding: 0cm;
-            margin: 0cm;
-        }
+     .photo
+     {
+        display: grid ;
+        grid-template-columns: 200px 200px ;
+        grid-template-rows: 120px 120px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e8EAF6 ;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    
+    .photo img{
+        width: 100;
+        height: 100;
+
+    }
+
+
+        
 </style> <!-- end of style-->
+
 
 </head> <!-- end of head -->
 
@@ -81,22 +116,18 @@
 
  <!-- second paragraph my skills and link to wiki -->
 
-        
-  <div class="skills">
-    <p> 
-        <span style="font-size: larger;"> <b> skills <br> </b> </span>
+    
+ <div class ="usu"> <b>  skills </b> </div> 
 
-    <img src= "./images/c-logo.png" width="60" height="60" >
+ <div class="photo">
+    
 
-    <img src="./images/java-logo-black-and-white-3.png" width="70" height="70" >   
+     <img src= "./images/c-logo.png" >
+     <img src="./images/java-logo-black-and-white-3.png">   
+     <img src="./images/swift-logo.png">
+     <img src="./images/html5-logo.png">
+    </div>
 
-
-    <img src="./images/swift-logo.png" width="60" height="60">
-
-
-    <img src="./images/html5-logo.png" width="60" height="60">
-</p>
-</div>
 
 <div class ="usu"> 
 <p style="text-align: left;">
